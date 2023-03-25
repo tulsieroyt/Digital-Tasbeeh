@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purity_result"
+    >
+
+    <TextView
+        android:id="@+id/resetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="আপনি কি পুনরায় শুরু করতে চান?"
+        android:textSize="40sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:textColor="@color/green"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <Button
+            android:id="@+id/reset_cancel_button"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="Cancle"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:id="@+id/reset_ok_button"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="OK"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
